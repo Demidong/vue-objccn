@@ -72,7 +72,7 @@
 
 我利用 Express 把后台搭建在 8081 端口上，并写好路由，请求会转到 8080，开启服务器的时候也会自动开启后台。
 
-我当前的开发环境是 node v6.11.0 ，npm v3.10.10，Vue.js v2.8.2 
+我当前的开发环境是 node v6.11.0 ，npm v3.10.10（npm v5.3.0 也可以，再高一点的版本没有测试过，应该也没多大问题），Vue.js v2.8.2 
 
 ``` bash
 
@@ -179,6 +179,14 @@ JavaScript 跨平台开发打包成桌面级应用，主要用 Electron 框架�
 <img src='./image/Screenshots/Web/Web 5.png'>
 </p>
 
+<p align='center'>
+<img src='./image/Screenshots/Web/Web 6.png'>
+</p>
+
+<p align='center'>
+<img src='./image/Screenshots/Web/Web 7.png'>
+</p>
+
 再展示一下在手机浏览器上的效果：
 
 Android 平台
@@ -232,6 +240,14 @@ iPad 的 Web
 
 <p align='center'>
 <img src='./image/Screenshots/Mac/Mac 4.png'>
+</p>
+
+<p align='center'>
+<img src='./image/Screenshots/Mac/Mac 5.png'>
+</p>
+
+<p align='center'>
+<img src='./image/Screenshots/Mac/Mac 6.png'>
 </p>
 
 最后看看 Cordova 的效果：

@@ -7,12 +7,10 @@
     </div>
     <p class="product-title-author">
       <ul class="author-list">
-        <li v-for="item in authorList"><a rel="author" :href=item.authorLink>{{item.authorName}}</a>&nbsp;</li>
-        著
+        <li v-for="item in authorList"><a rel="author" :href=item.authorLink>{{item.authorName}}</a>&nbsp;</li>著
       </ul>
       <ul class="author-list" v-if="translatorList.length > 0">
-        <li v-for="item in translatorList"><a rel="author" :href=item.authorLink>{{item.authorName}}</a>&nbsp;</li>
-        译
+        <li v-for="item in translatorList"><a rel="author" :href=item.authorLink>{{item.authorName}}</a>&nbsp;</li>译
       </ul>
     </p>
   </div>
@@ -36,7 +34,8 @@ export default {
         '/products/swifter-tips': require('../../assets/swifter-tips-header.png'),
         '/products/functional-swift': require('../../assets/functional-swift-header.png'),
         '/products/core-data': require('../../assets/core-data-header.png'),
-        '/products/advanced-swift': require('../../assets/advanced-swift-header.png')
+        '/products/advanced-swift': require('../../assets/advanced-swift-header.png'),
+        '/products/optimizing-collections': require('../../assets/optimizing-collections-header.png')
       }
     };
   },
